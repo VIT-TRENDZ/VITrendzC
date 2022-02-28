@@ -2,7 +2,7 @@
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
 
-export default function Logo({ src, ...rest }) {
+export default function Logo({ src,...rest }) {
   return (
     <Link path = '/'
       sx = {{
@@ -15,7 +15,8 @@ export default function Logo({ src, ...rest }) {
       }}
       {...rest}    
     >
-      <Image src = {src} alt = "VITrendz Logo" />
+      <Image src = {src} alt = "VITrendz Logo" /><span></span>
     </Link>
+    
   );
 }
