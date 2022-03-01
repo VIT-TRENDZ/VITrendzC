@@ -9,25 +9,17 @@ import KeyFeature from '../sections/key-feature';
 import ServiceSection from '../sections/service-section';
 import Feature from '../sections/feature';
 import CoreFeature from '../sections/core-feature';
-import WorkFlow from '../sections/workflow';
-import Package from '../sections/package';
-import TeamSection from '../sections/team-section';
-import TestimonialCard from '../sections/testimonial';
-
+import About from '../sections/about';
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
           <SEO title="VITrendz Chennai" />
           <Banner />
+          <About />
           <KeyFeature />
-          <ServiceSection />
           <Feature />
           <CoreFeature />
-          <WorkFlow />
-          <Package />
-          <TeamSection />
-          <TestimonialCard />
         </Layout>
     </ThemeProvider>
   );

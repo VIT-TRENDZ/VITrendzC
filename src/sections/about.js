@@ -14,9 +14,9 @@ const data = {
   btnURL: '#',
 };
 
-export default function CoreFeature() {
+export default function About() {
   return (
-   <section sx = {{variant : "section.coreFeature"}}>
+   <section sx = {{variant : "section.coreFeature"}} id = "about">
      <Container sx = {styles.containerBox}>
        <Box sx = {styles.contentBox}>
          <TextFeature 
