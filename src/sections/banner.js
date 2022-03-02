@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
+import { Container, Box, Heading, Text, Image, Button,Link } from 'theme-ui';
 import ReactTypingEffect from 'react-typing-effect';
 import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
@@ -24,16 +24,17 @@ export default function Banner() {
                 eraseSpeed={100}
               /></span>
             </Text>
-            <Button variant = "primary">
-              Explore
+          <Link to = 'feature' variant = "default">
+            <Button variant = "primary" aria-label = "Explore">
+                Explore
             </Button>
+          </Link>
         </Box>
         <Box sx ={styles.banner.imageBox}>
           <Image src = {BannerImg}  alt = "Banner" />
         </Box>
 
       </Container>
-
     </section>
   );
 }
