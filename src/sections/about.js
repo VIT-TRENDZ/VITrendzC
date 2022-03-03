@@ -3,8 +3,8 @@
 import { jsx, Container, Box, Image } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 
-import FeatureThumb from 'assets/corefeature.png';
-import shapePattern from 'assets/shapepattern2.png';
+import FeatureThumb from 'src/assets/assets/corefeature.png';
+import shapePattern from 'src/assets/shapepattern2.png';
 
 const data = {
   subTitle: 'About Us',
