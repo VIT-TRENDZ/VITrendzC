@@ -3,9 +3,9 @@
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button,Link } from 'theme-ui';
 import ReactTypingEffect from 'react-typing-effect';
-import BannerImg from 'assets/banner-thumb.png';
-import ShapeLeft from 'assets/shape-left.png';
-import ShapeRight from 'assets/shape-right.png';
+import BannerImg from 'assets/bannerthumb.png';
+import ShapeLeft from 'assets/shapeleft.png';
+import ShapeRight from 'assets/shaperight.png';
 
 export default function Banner() {
   
