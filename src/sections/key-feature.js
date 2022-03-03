@@ -59,7 +59,7 @@ export default function KeyFeature() {
                 key = {item.id}
                 src = {item.imgSrc}
                 alt = {item.altText}
-                title = {item.Title}
+                title = {item.title}
                 text = {item.text}
               />
           )
