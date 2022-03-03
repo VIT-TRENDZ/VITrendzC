@@ -1,16 +1,3 @@
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
-module.exports = {
-    module: {
-      rules: [
-        {
-          test: /\.(png|jpe?g|gif)$/i,
-          use: [
-            {
-              loader: 'file-loader',
-            },
-          ],
-        },
-      ],
-    }
-};
+module.exports = withPlugins([optimizedImages], { target: 'serverless',webpack5: true, experimental: { modern: true, esmExternals: true, }, reactStrictMode: true, images: { domains: [],disableStaticImages: true },});
